@@ -1,0 +1,9 @@
+{
+  "name": "cog-website",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "is-up-cli": "1.0.0"
+  }
+}

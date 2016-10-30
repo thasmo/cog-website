@@ -1,0 +1,15 @@
+---
+cog_bundle_version: 4
+name: website
+description: Various commands for working with websites.
+version: 0.1.0
+docker:
+  image: thasmo/cog-website
+  tag: 0.1.0
+commands:
+  up:
+    description: Check if a website is up.
+    executable: /node_modules/.bin/is-up
+    arguments: "<URL>"
+    rules:
+      - allow
